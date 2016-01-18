@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><action result="ok" error="">
+
+	<request result="ok" sqlfile="1.6.0.14">
+			<sqlQuery><![CDATA[SET NAMES 'utf8']]></sqlQuery>
+		</request>
+</action>
+<action result="fail" error="28" />

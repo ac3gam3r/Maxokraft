@@ -1,0 +1,220 @@
+/* Container */
+.sp-dark.sp-container {
+  background-color: #333;
+  border: 0 none;
+  border-radius: 2px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Replacer (the little preview div that shows up instead of the <input>) */
+.sp-dark.sp-replacer {
+  background: none repeat scroll 0 0 transparent;
+  border: 0 none;
+  border-radius: 0;
+  color: #eee;
+  margin: 0 1px;
+  padding: 0;
+  vertical-align: top;
+}
+
+.sp-replacer:hover, .sp-replacer.sp-active {
+    border-color: #F0C49B;
+    color: #fff;
+}
+.sp-replacer.sp-disabled {
+    border-color: silver;
+    color: silver;
+}
+.sp-dark .sp-preview {
+  border: 1px solid #aaa;
+  height: 12px;
+  margin: 0;
+  overflow: hidden;
+  transition: all 0.3s ease 0s;
+  width: 15px;
+}
+.sp-dark .sp-cancel {
+    color: #f99f9f !important;
+}
+
+.sp-dark .sp-slider {
+  background: none repeat scroll 0 0 transparent;
+  border: 1px solid #000;
+  border-radius: 3px;
+  box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.4) inset, 0 2px 2px rgba(0, 0, 0, 0.4), 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+  cursor: pointer;
+  height: 6px;
+  left: -5px;
+  opacity: 0.8;
+  position: absolute;
+  right: -5px;
+  top: 0;
+  transform: translateZ(0px);
+  -webkit-transform: translateZ(0px);
+}
+
+.sp-dark .sp-dragger {
+  background: none repeat scroll 0 0 transparent;
+  border: 2px ridge #fff;
+  border-radius: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.sp-dark, .sp-dark button, .sp-dark input, .sp-color, .sp-hue {
+
+}
+
+/* Input */
+.sp-dark .sp-input-container {
+
+}
+.sp-dark .sp-initial-disabled .sp-input-container {
+
+}
+.sp-dark .sp-input {
+  background: none repeat scroll 0 0 #ccc;
+  border: 0 none;
+  box-shadow: 0 1px 2px #000 inset;
+}
+.sp-dark .sp-input:focus {
+  box-shadow: 0 1px 2px #000 inset, 0 0 10px rgba(0, 180, 200, 0.8);
+}
+.sp-dark .sp-input.sp-validation-error {
+
+}
+
+.sp-dark .sp-alpha-handle {
+  background: none repeat scroll 0 0 white;
+  border: 1px solid black;
+  border-radius: 3px;
+  bottom: -4px;
+  cursor: pointer;
+  left: 50%;
+  opacity: 1;
+  position: absolute;
+  top: -4px;
+  width: 8px;
+}
+
+.sp-dark .sp-picker-container, .sp-dark .sp-palette-container {
+  border: 0 none;
+  display: inline-block;
+  margin: 0;
+  padding: 10px;
+  position: relative;
+  vertical-align: top;
+}
+.sp-dark .sp-picker-container {
+	border:0 none;
+}
+
+/* Palettes */
+.sp-dark .sp-palette-container {
+	width:40px;
+}
+
+.sp-dark .sp-palette .sp-thumb-el {
+
+}
+.sp-dark .sp-palette .sp-thumb-el:hover, .sp-dark .sp-palette .sp-thumb-el.sp-thumb-active {
+
+}
+.sp-dark .sp-thumb-el {
+}
+
+/* Initial */
+.sp-dark .sp-initial {
+  display: block;
+  float: none;
+  text-align: center;
+}
+.sp-dark .sp-initial span {
+
+}
+
+/* Buttons */
+.sp-dark .sp-button-container {
+
+}
+
+/* Replacer (the little preview div that shows up instead of the <input>) */
+.sp-dark.sp-replacer {
+
+}
+.sp-dark.sp-replacer:hover, .sp-dark.sp-replacer.sp-active {
+    border-color: #F0C49B;
+    color: #111;
+}
+.sp-dark.sp-replacer.sp-disabled {
+
+}
+.sp-dark .sp-dd {
+	display:none;
+}
+
+
+
+.sp-dark .sp-preview {
+
+}
+.sp-dark .sp-palette {
+
+}
+.sp-dark .sp-palette .sp-thumb-el {
+
+}
+
+.sp-dark button {
+
+}
+.sp-dark button:hover {
+
+}
+.sp-dark button:active {
+
+}
+
+
+.sp-dark .sp-cancel, .sp-dark .sp-choose {
+  background: none repeat scroll 0 0 transparent;
+  border: 0 none;
+  color: #229966;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 16px;
+  margin: 0 5px;
+  padding: 0;
+  position: relative;
+  text-shadow: 0 0;
+}
+
+.sp-dark button:hover {
+  background: none repeat scroll 0 0 transparent;
+  border: 0 none;
+  text-shadow: 0 0;
+}
+
+.sp-dark .sp-choose:hover {
+
+}
+
+.sp-dark .sp-cancel:hover {
+
+}
+
+.sp-dark .sp-cancel:before {
+	content: "\f00d";
+  display: inline-block;
+}
+.sp-dark .sp-choose:before {
+	content: "\f00c";
+}
+
+.sp-dark .sp-palette span:hover, .sp-dark .sp-palette span.sp-thumb-active {
+
+}
+
+

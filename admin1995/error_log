@@ -1,0 +1,1 @@
+[24-Jan-2015 00:49:52 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 3296 bytes) in /home/ac3gam3r/public_html/classes/ImageManager.php on line 429

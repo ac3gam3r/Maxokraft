@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>shiptomyid</name>
+	<displayName><![CDATA[Ship2MyId]]></displayName>
+	<version><![CDATA[1.0.1]]></version>
+	<description><![CDATA[Send real gifts and packages to an email, 
+		mobile phone or social account, Increase your online transactions, Increasing your customer base.]]></description>
+	<author><![CDATA[NewQuest]]></author>
+	<tab><![CDATA[smart_shopping]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

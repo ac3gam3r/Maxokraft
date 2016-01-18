@@ -1,0 +1,16 @@
+.header_user_info {
+  float: right;
+  border-left: 1px solid #515151;
+  /*border-right: 1px solid #515151;*/ }
+  .header_user_info a {
+    color: black;
+    font-weight: bold;
+    display: block;
+    padding: 0px 9px 0px 8px;
+    cursor: pointer;
+    line-height: 18px; }
+    @media (max-width: 479px) {
+      .header_user_info a {
+        font-size: 11px; } }
+    .header_user_info a:hover, .header_user_info a.active {
+      background: rgba(211, 211, 211, 0.89); }

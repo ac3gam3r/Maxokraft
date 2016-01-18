@@ -1,0 +1,11 @@
+	Hi,
+
+	Dear {firstname} {lastname},
+		We have received your order, Thanks for your Ccavenue payment.The transaction was successful.Your payment is authorized.
+		The details of the order are below:
+		Order ID:  {Order_Id}
+		Date Ordered:  {date_added}
+		Payment Method:  {payment_method}
+		Order Total:  {total}
+
+	{shop_url} powered by PrestaShop™
