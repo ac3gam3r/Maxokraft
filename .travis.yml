@@ -14,8 +14,7 @@ before_script:
   - curl -s http://getcomposer.org/installer | php
   - php composer.phar install  --dev --no-interaction --prefer-source
 
-script:
-  - ./vendor/bin/phpunit
+
 
 notifications:
     email: false
