@@ -29,28 +29,28 @@
 <div id="footer" class="bootstrap hide">
 
 	<div class="col-sm-2 hidden-xs">
-		<a href="http://www.prestashop.com/" class="_blank">PrestaShop&trade; {$ps_version}</a>
+		<a href="http://www.maxokraft.com/" class="_blank">Maxokraft&trade; {$ps_version}</a>
 		-
 		<span id="footer-load-time"><i class="icon-time" title="{l s='Load time: '}"></i> {number_format(microtime(true) - $timer_start, 3, '.', '')}s</span>
 	</div>
 
 	<div class="col-sm-2 hidden-xs">
 		<div class="social-networks">
-			<a class="link-social link-twitter _blank" href="https://twitter.com/PrestaShop" title="Twitter">
+			<a class="link-social link-twitter _blank" href="https://twitter.com/maxokraft" title="Twitter">
 				<i class="icon-twitter"></i>
 			</a>
-			<a class="link-social link-facebook _blank" href="https://www.facebook.com/prestashop" title="Facebook">
+			<a class="link-social link-facebook _blank" href="https://www.facebook.com/maxokraft" title="Facebook">
 				<i class="icon-facebook"></i>
 			</a>
-			<a class="link-social link-github _blank" href="https://www.prestashop.com/github" title="Github">
+{*			<a class="link-social link-github _blank" href="https://www.prestashop.com/github" title="Github">
 				<i class="icon-github"></i>
-			</a>
-			<a class="link-social link-google _blank" href="https://plus.google.com/+prestashop/" title="Google">
+			</a>*}
+{*			<a class="link-social link-google _blank" href="https://plus.google.com/+prestashop/" title="Google">
 				<i class="icon-google-plus"></i>
-			</a>
+			</a>*}
 		</div>
 	</div>
-	<div class="col-sm-5">
+{*	<div class="col-sm-5">
 		<div class="footer-contact">
 			<a href="http://www.prestashop.com/en/contact_us?utm_source=back-office&amp;utm_medium=footer&amp;utm_campaign=back-office-{$lang_iso|upper}&amp;utm_content={if $host_mode}cloud{else}download{/if}" class="footer_link _blank">
 				<i class="icon-envelope"></i>
@@ -82,7 +82,7 @@
 			</p>
 			{/if}
 		</div>
-	</div>
+	</div>*}
 
 	<div class="col-sm-3">
 		{hook h="displayBackOfficeFooter"}

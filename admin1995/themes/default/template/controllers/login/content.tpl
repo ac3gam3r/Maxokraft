@@ -30,7 +30,7 @@
 	<div id="login-header">
 		<h1 class="text-center">
 			<img id="logo" width="40px" src="{$img_dir}icon-prestashop.svg"/>
-			PRESTASHOP
+			MAXOKRAFT
 		</h1>
 		<hr/>
 		<h4 class="text-center">{$shop_name}</h4>
@@ -150,22 +150,22 @@
 	<div id="login-footer">
 		<p class="text-center text-muted">
 			<a href="http://www.prestashop.com/" onclick="return !window.open(this.href);">
-				&copy; PrestaShop&#8482; 2007-{$smarty.now|date_format:"%Y"} - All rights reserved
+				&copy; Maxokraft&#8482; 2014-{$smarty.now|date_format:"%Y"} - All rights reserved
 			</a>
 		</p>
 		<p class="text-center">
-			<a class="link-social link-twitter _blank" href="https://twitter.com/PrestaShop" title="Twitter">
+			<a class="link-social link-twitter _blank" href="https://twitter.com/maxokraft" title="Twitter">
 				<i class="icon-twitter"></i>
 			</a>
-			<a class="link-social link-facebook _blank" href="https://www.facebook.com/prestashop" title="Facebook">
+			<a class="link-social link-facebook _blank" href="https://www.facebook.com/maxokraft" title="Facebook">
 				<i class="icon-facebook"></i>
 			</a>
-			<a class="link-social link-github _blank" href="https://www.prestashop.com/github" title="Github">
+{*			<a class="link-social link-github _blank" href="https://www.prestashop.com/github" title="Github">
 				<i class="icon-github"></i>
 			</a>
 			<a class="link-social link-google _blank" href="https://plus.google.com/+prestashop/" title="Google">
 				<i class="icon-google-plus"></i>
-			</a>
+			</a>*}
 		</p>
 	</div>
 </div>
