@@ -6874,7 +6874,7 @@ div.star a:hover {
       position: relative; }
     .footer-container #footer .footer-block {
       margin-top: 20px;
-      width: 23.33%; }
+      width: 16%; }
     .phone .footer-container #footer .footer-block {
       width: 100%; }
       @media (max-width: 767px) {
@@ -6913,7 +6913,7 @@ div.star a:hover {
       .footer-container #footer ul li a {
         font-size: 12px; }
     .footer-container #footer #block_contact_infos {
-      float: right;
+      float: left;
       width: 30%; }
     .phone .footer-container #footer #block_contact_infos {
       width: 100%; }
@@ -6946,7 +6946,7 @@ div.star a:hover {
       clear: left; }
     .footer-container #footer #social_block {
       float: left;
-      width: 50%;
+      width: 20%;
       padding: 22px 15px 0 15px; }
       @media (max-width: 767px) {
         .footer-container #footer #social_block {
@@ -6954,8 +6954,10 @@ div.star a:hover {
           float: left;
           padding-top: 5px; } }
       .footer-container #footer #social_block ul {
-        float: right;
-        margin-top: -4px; }
+        float: left;
+        margin-top: 0px;
+        margin-left: -10px;
+      }
         @media (max-width: 767px) {
           .footer-container #footer #social_block ul {
             float: none; } }
@@ -7010,7 +7012,7 @@ div.star a:hover {
           .footer-container #footer #social_block ul li.google-plus a:hover {
             background-position: -72px -48px; }
       .footer-container #footer #social_block h4 {
-        float: right;
+        float: left;
         margin-bottom: 0;
         font-size: 16px;
         line-height: 20px;
